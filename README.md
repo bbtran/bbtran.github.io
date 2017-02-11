@@ -1,2 +1,3 @@
-# bbtran.github.io
-Personal Website and Portfolio
+#benjamintran.com
+
+My personal website and digital portfolio! 
