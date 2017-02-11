@@ -41,7 +41,7 @@ h6 {
 }
 
 p {
-    font-size: 18px;
+    font-size: 19px;
     line-height: 1.5;
     margin-bottom: 30px;
 }
@@ -298,52 +298,29 @@ section.resume {
     background: rgba(0,0,0,0.5);
     background: white;
 }
-#resume {
-    .resume-item {
-        margin: 0 0 15px;
-        right: 0;
-        .resume-link {
-            display: block;
+#experience {
+    .resume-link {
+        display: block;
+        margin: 0 auto;
+        max-width: 200px;
+        position: relative;
+    }
+    .expereince-content {
+        border-color: @theme-primary;
+        border-style: solid;
+        border-width: 2px;
+        ul {
+            width: 90%;
             margin: 0 auto;
-            max-width: 600px;
-            position: relative;
-            .caption {
-                -moz-transition: all ease 0.5s;
-                -webkit-transition: all ease 0.5s;
-                background: rgba(14,117,139,0.5);
-                height: 100%;
-                opacity: 0;
-                position: absolute;
-                transition: all ease 0.5s;
-                width: 100%;
-                &:hover {
-                    opacity: 1;
-                }
-                .caption-content {
-                    color: white;
-                    font-size: 20px;
-                    height: 20px;
-                    margin-top: -12px;
-                    position: absolute;
-                    text-align: center;
-                    top: 50%;
-                    width: 100%;
-                }
+            li {
+                font-size: 16px
             }
         }
     }
 }
-.resume-link {
-    img {
-        border-color: @theme-primary;
-        border-style: solid;
-        border-width: 2px;
-        margin: 0 auto;
-        width:400px;
-    }
-}
-// MODAL
 
+
+// MODAL
 .portfolio-modal {
     .modal-content {
         -webkit-box-shadow: none;
@@ -406,7 +383,17 @@ section.resume {
     }
 }
 
-
+//Footer
+footer {
+    .footer-col {
+        margin-bottom: 20px;
+    }
+    .footer-below {
+        padding: 25px 0;
+        background: rgba(14,117,139,0.2);
+        font-size: 16px;
+    }
+}
 
 // Bootstrap Overrides
 .text-primary {
